@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.primary {
+  background-color: rgb(22, 93, 255);
+  color: #fff;
+}
+
+button + button {
+  margin-left: 12px;
+}
