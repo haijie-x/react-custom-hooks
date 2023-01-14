@@ -1,8 +1,12 @@
 {
-  "name": "react-custom-hooks",
-  "version": "0.0.0",
+  "name": "react-customized-hooks",
+  "version": "0.0.0-alpha.2",
   "description": "",
-  "author": "haihaixhj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haijie-x/react-custom-hooks.git"
+  },
+  "author": "haijie-x",
   "license": "MIT",
   "keywords": [],
   "publishConfig": {
@@ -10,18 +14,19 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": "./type/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./type/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "type"
   ],
   "peerDependencies": {
-    "react": "^16"
+    "react": ">=16"
   }
 }
